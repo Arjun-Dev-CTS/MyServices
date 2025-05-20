@@ -1,0 +1,11 @@
+server.port=9594
+
+spring.application.name=API_GATEWAY_WITH_EUREKA_SERVER
+
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+
+spring.cloud.gateway.discovery.locator.enabled=true
+
+
+eureka.client.service-url.defaultZone=http://localhost:9595/eureka/
